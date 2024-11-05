@@ -1,3 +1,4 @@
+#For analysing one year for one country at a time.
 import pandas as pd
 import statistics
 df = pd.read_excel("C:/Users/Krishna Vadrevu/Desktop/Vineet_Stuff/Datasets/New_bhutan_2012-2023_peaksummer_only_daily_aggregate (3) (1).xlsx",sheet_name="2013",usecols=[1,2],nrows=64)
